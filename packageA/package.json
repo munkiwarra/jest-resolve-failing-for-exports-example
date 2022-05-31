@@ -1,0 +1,18 @@
+{
+    "name": "package-a",
+    "devDependencies": {
+        "@types/jest": "27.5.1",
+        "jest": "28.1.0",
+        "package-b": "workspace:^",
+        "typescript": "4.7.2"
+    },
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/munkiwarra/jest-resolve-exports-example.git",
+    "author": "munkiwarra<munkiwarra@posteo.de>",
+    "license": "MIT",
+    "packageManager": "yarn@3.2.1",
+    "scripts": {
+        "test": "jest"
+    }
+}

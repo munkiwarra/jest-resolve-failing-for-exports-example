@@ -1,0 +1,10 @@
+{
+    "name": "jest-resolve-exports-example",
+    "workspaces": [
+        "./packageA",
+        "./packageB"
+    ],
+    "version": "1.0.0",
+    "repository": "https://github.com/munkiwarra/jest-resolve-exports-example.git",
+    "packageManager": "yarn@3.2.1"
+}
